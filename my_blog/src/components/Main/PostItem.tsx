@@ -31,6 +31,7 @@ const PostItemContent = styled.div`
   flex-direction: column;
   padding: 15px;
 `
+
 const Title = styled.div`
   display: -webkit-box;
   overflow: hidden;
