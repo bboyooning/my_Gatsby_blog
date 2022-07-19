@@ -9,7 +9,7 @@ type IntroductionProps = {
 
 const Background = styled.div`
   width: 100%;
-  background: #aead96;
+  background: #0a4270;
   color: #ffffff;
 `
 

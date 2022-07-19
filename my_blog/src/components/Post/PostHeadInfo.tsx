@@ -23,6 +23,7 @@ const PostHeadInfoWrapper = styled.div`
     padding: 40px 20px;
   }
 `
+
 const PrevPageIcon = styled.div`
   display: grid;
   place-items: center;
@@ -89,7 +90,7 @@ const PostHeadInfo: FunctionComponent<PostHeadInfoProps> = function ({
       </PrevPageIcon>
       <Title>{title}</Title>
       <PostData>
-        <div>{categories.join('/')}</div>
+        <div>{categories.join(' / ')}</div>
         <div>{date}</div>
       </PostData>
     </PostHeadInfoWrapper>

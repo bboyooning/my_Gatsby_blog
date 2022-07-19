@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react'
 import styled from '@emotion/styled'
 import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image'
-import PostHeadInfo, { PostHeadInfoProps } from 'components/Post/PostHeadInfo'
+import PostHeadInfo, { PostHeadInfoProps } from './PostHeadInfo'
 
 type GatsbyImgProps = {
   image: IGatsbyImageData
@@ -22,6 +22,7 @@ const PostHeadWrapper = styled.div`
     height: 300px;
   }
 `
+
 const BackgroundImage = styled((props: GatsbyImgProps) => (
   <GatsbyImage {...props} style={{ position: 'absolute' }} />
 ))`
