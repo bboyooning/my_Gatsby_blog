@@ -16,7 +16,7 @@ thumbnail: './deep_dive.png'
 - 모든 식별자(변수 이름, 함수 이름, 클래스 이름 등)는 자신이 선언된 위치에 의해 다른 코드가 식별자 자신을 참조할 수 있는 범위가 결정됨
   <br> → 이것이 `스코프` ! 즉, `스코프` 는 식별자가 유효한 범위를 말함
 - 아래의 예제는 어떻게 작동할까?
-- <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b88bc925-8036-4041-8620-565f638e4294/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220627%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220627T041452Z&X-Amz-Expires=86400&X-Amz-Signature=13392a241f8b7df488ceb203cabf216edfdf3dac9c3b661e3d802fb08786af5b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"></img>
+- <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b88bc925-8036-4041-8620-565f638e4294/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220627%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220627T041452Z&X-Amz-Expires=86400&X-Amz-Signature=13392a241f8b7df488ceb203cabf216edfdf3dac9c3b661e3d802fb08786af5b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" style="width: 748px" />
   - 코드의 가장 바깥 영역과 foo 함수 내부에 같은 이름을 갖는 x 변수를 선언했고, (1)과 (2)에서 x 변수를 참조함
   - 이때 자바스크립트 엔진은 같은 이름의 두 변수 중에서 어떤 변수를 참조해야 할 것인지 결정해야 하는데, 이를 `식별자 결정` 이라고 함
   - 자바스크립트 엔진은 `스코프` 를 통해 어떤 변수를 참조해야 할 것인지 결정

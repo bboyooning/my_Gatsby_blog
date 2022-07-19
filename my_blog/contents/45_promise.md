@@ -140,7 +140,7 @@ get(`${url}/posts/1`, ({ userId }) => {
   }
   ```
 
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb0vpcX%2Fbtrdqga8Eeb%2FOHVaVt3lye5RFNZdflpKxk%2Fimg.png">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb0vpcX%2Fbtrdqga8Eeb%2FOHVaVt3lye5RFNZdflpKxk%2Fimg.png" style="width: 748px" />
 
 - 비동기 함수인 setTimeout 이 호출되면 setTimeout 함수의 실행 컨텍스트가 생성되어 콜 스택에 푸쉬되어 실행됨
 - setTimeout 은 비동기 함수이므로 콜백 함수가 호출되는 것을 기다리지 않고 즉시 종료되어 콜 스택에서 제거됨
@@ -208,7 +208,7 @@ get(`${url}/posts/1`, ({ userId }) => {
 - 성공하면 비동기 처리 결과를 resolve 함수에 인수로 전달하며 호출, 실패하면 에러를 reject 함수에 인수로 전달
 
 - 프로미스는 다음과 같이 현재 비동기 처리가 어떻게 진행되고 있는지 나타내는 상태 정보를 갖음
-  <img src="https://velog.velcdn.com/images%2Fniyu%2Fpost%2F94082c0d-b5f2-41de-b1a8-dde17e47e0b4%2Fimage.png">
+  <img src="https://velog.velcdn.com/images%2Fniyu%2Fpost%2F94082c0d-b5f2-41de-b1a8-dde17e47e0b4%2Fimage.png" style="width: 748px" />
 
 - 생성된 직후의 프로미스는 기본적으로 pending 상태
 - 비동기 처리 성공: resolve 함수 호출해 프로미스를 fullfilled 상태로 변경
@@ -216,10 +216,10 @@ get(`${url}/posts/1`, ({ userId }) => {
 - 이처럼 프로미스의 상태는 resolve 또는 reject 함수 호출하는 것으로 결정됨
 - 비동기 처리 성공하면 pending -> fulfilled 로 변화하고, 비동기 처리 결과인 1을 값으로 가짐
 
-  <img src="https://velog.velcdn.com/images%2Fniyu%2Fpost%2F58a9919b-b31f-4e69-aecd-ac48c5abb92e%2Fimage.png">
+  <img src="https://velog.velcdn.com/images%2Fniyu%2Fpost%2F58a9919b-b31f-4e69-aecd-ac48c5abb92e%2Fimage.png" style="width: 748px" />
 
 - 비동기 처리 실패하면 pending -> rejected 로 변화하고, 비동기 처리 결과인 Error 객체를 값으로 가짐
-  <img src="https://velog.velcdn.com/images%2Fniyu%2Fpost%2Fb2758d9b-2068-4db3-ac60-fb394c60fcc4%2Fimage.png">
+  <img src="https://velog.velcdn.com/images%2Fniyu%2Fpost%2Fb2758d9b-2068-4db3-ac60-fb394c60fcc4%2Fimage.png" style="width: 748px" />
 
 - 즉, 프로미스는 비동기 처리 상태와 처리 결과를 관리하는 객체!
 
@@ -534,7 +534,7 @@ get(`${url}/posts/1`, ({ userId }) => {
 - 그 외의 비동기 함수의 콜백 함수나 이벤트 핸들러는 태스크 큐에 일시 저장됨
 - 콜백 함수나 이벤트 핸들러를 일시 저장한다는 점에서 태스크 큐와 동일하지만, 마이크로태스크 큐는 태스크 큐보다 우선순위가 높음
 - 즉, 이벤트 루프는 콜 스택이 비면 먼저 마이크로태스크 큐에서 대기하고 있는 함수를 가져와 실행함
-  <img src="https://uploads.disquscdn.com/images/9466d8aa53fc5b3e63a92858a94bb429df02bbd20012b738f0461343beaa6f90.gif?w=600&h=272">
+  <img src="https://uploads.disquscdn.com/images/9466d8aa53fc5b3e63a92858a94bb429df02bbd20012b738f0461343beaa6f90.gif?w=600&h=272" style="width: 748px" />
 
 - 이후 마이크로태스크 큐가 비면 태스크 큐에서 대기하고 있는 함수를 가져와 실행함
 

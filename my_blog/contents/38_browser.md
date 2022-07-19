@@ -26,7 +26,7 @@ thumbnail: './deep_dive.png'
 - 브라우저의 핵심 기능은 필요한 리소스를 서버에 요청하고, 서버로부터 응답을 받아 브라우저에 시각적으로 렌더링 하는 것
 - 즉, 렌더링에 필요한 리소스는 모두 서버에 존재하므로 필요한 리소스를 서버에 요청하고 서버가 응답한 리소스를 파싱하여 렌더링하는 것
 - 서버에 요청을 전송하기 위해 브라우저는 주소창을 제공함
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F4jfhy%2Fbtrvbhya9KK%2FMSygerMcKAdZbWsJP33KzK%2Fimg.png">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F4jfhy%2Fbtrvbhya9KK%2FMSygerMcKAdZbWsJP33KzK%2Fimg.png"  style="width: 748px" />
 
 - 서버에 요청을 하기 위해서는 브라우저 주소창에 URL을 입력하고 엔터키를 누름
 - URL의 호스트 이름이 DNS를 통해 IP 주소로 변환되고 이 IP 주소를 갖는 서버에게 요청을 전송함
@@ -61,7 +61,7 @@ thumbnail: './deep_dive.png'
 - 따라서 브라우저 화면에 렌더링되지 않는 노드(meta, script 태그 등)와 CSS에 의해 비표시되는 노드들은 포함하지 않음
 - 즉, 렌더 트리는 브라우저 화면에 렌더링되는 노드만으로 구성됨
 - 이후 완성된 렌더 트리는 각 HTML 요소의 레이아웃(위치와 크기)을 계산하는 데 사용되며 브라우저 화면에 픽셀을 렌더링하는 페인팅 처리에 입력됨
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcmYdP4%2Fbtru9Po3G9K%2FddHcmCNkMMaT7daDaRKDDK%2Fimg.png">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcmYdP4%2Fbtru9Po3G9K%2FddHcmCNkMMaT7daDaRKDDK%2Fimg.png" style="width: 748px" />
 
 - 브라우저의 렌더링 과정은 반복해서 실행될 수 있음
 - 리렌더링은 성능에 악영향을 주는 작업이므로 가급적 빈번하게 발생하지 않도록 주의해야 함
@@ -138,7 +138,7 @@ thumbnail: './deep_dive.png'
 
 - HTML 파싱과 외부 자바스크립트 파일의 로드가 비동기적으로 동시에 진행됨
 - 단, 자바스크립트 파싱과 실행은 자바스크립트 파일의 로드가 완료된 직후 진행되며 이때 HTML 파싱이 중단됨
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FsQd8c%2FbtrvhMKUIDi%2F8z4acSXPTfhDjoAW7QpagK%2Fimg.png">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FsQd8c%2FbtrvhMKUIDi%2F8z4acSXPTfhDjoAW7QpagK%2Fimg.png" style="width: 748px" />
 
 - 여러개의 script 태그에 async 를 지정하면 script 태그의 순서와는 상관없이 로드가 완료된 자바스크립트 부터 먼저 실행되므로 순서가 보장되지 않음
 
@@ -149,7 +149,7 @@ thumbnail: './deep_dive.png'
 - async 와 마찬가지로 HTML 파싱과 외부 자바스크립트 파일의 로드가 비동기적으로 동시에 진행됨
 - 단, 자바스크립트의 파싱과 실행은 HTML 파싱이 완료된 직후
 - 즉, DOM 생성이 완료된 직후 진행됨
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Ft0E6H%2FbtrvaJPEvX7%2FjIW8nHYtZnfo9KndoMKZkK%2Fimg.png">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Ft0E6H%2FbtrvaJPEvX7%2FjIW8nHYtZnfo9KndoMKZkK%2Fimg.png" style="width: 748px" />
 
 - 따라서 DOM 생성이 완료된 이후 실행되어야 할 자바스크립트에 유용함
   <br>

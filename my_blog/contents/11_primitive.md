@@ -177,7 +177,7 @@ var copy = person
 - 이를 `참조에 의한 전달` 이라 함.
   <br>
 
-  <img src="https://velog.velcdn.com/images/jhplus13/post/cf94c86f-9ca6-4fe9-9d2b-acd797ef479f/image.png">
+  <img src="https://velog.velcdn.com/images/jhplus13/post/cf94c86f-9ca6-4fe9-9d2b-acd797ef479f/image.png"  style="width: 748px" />
 
 <br>
 

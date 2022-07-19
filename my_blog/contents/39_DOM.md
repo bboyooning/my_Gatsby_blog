@@ -56,7 +56,7 @@ thumbnail: './deep_dive.png'
   </html>
   ```
 
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbPAbSi%2FbtrAVsA1ACk%2F7mEGOEkGVyjXitUwriik11%2Fimg.png">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbPAbSi%2FbtrAVsA1ACk%2F7mEGOEkGVyjXitUwriik11%2Fimg.png" style="width: 748px" />
 
 - 이처럼 DOM 은 노드 객체의 계층적인 구조로 구성됨
 - 노드 객체는 총 12개의 종류(노드 타입)가 있음
@@ -100,10 +100,10 @@ thumbnail: './deep_dive.png'
 - DOM 을 구성하는 노드 객체는 자신의 구조와 정보를 제어할 수 있는 DOM API 를 사용할 수 있음
 - DOM 을 구성하는 노드 객체는 ECMAScript 사양에 정의된 표준 빌트인 객체가 아닌, 브라우저 환경에서 추가적으로 제공하는 호스트 객체임
 - 하지만 노드 객체도 자바스크립트 객체이므로 프로토타입에 의한 상속 구조를 갖음
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcDX134%2FbtrAYmthuJ7%2FGlcerFsrqKiqY62CvNFbpK%2Fimg.png">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcDX134%2FbtrAYmthuJ7%2FGlcerFsrqKiqY62CvNFbpK%2Fimg.png" style="width: 748px" />
 - 모든 노드 객체는 Object, EventTarget, Node 인터페이스를 상속받음
 - input 요소 노드 객체의 특성
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcetzMz%2FbtrAWA6BMpc%2FmEfMLikTstxrjQQkLvR2BK%2Fimg.png">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcetzMz%2FbtrAWA6BMpc%2FmEfMLikTstxrjQQkLvR2BK%2Fimg.png" style="width: 748px" />
 
 - 노드 객체의 상속 구조는 개발자 도구 Elements 패널 우측의 Properties 패널에서 확인 가능
 - DOM 은 HTML 문서의 계층적 구조와 정보를 표현하는 것은 물론 노드 객체의 종류, 즉 노드 타입에 따라 필요한 기능을 프로퍼티와 메서드의 집합인 DOM API 로 제공함
