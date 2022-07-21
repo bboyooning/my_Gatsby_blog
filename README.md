@@ -23,6 +23,7 @@
 - **인피니티 스크롤 구현** : 카테고리 별로 아이템을 필터링 해줌과 동시에 인피니티 스크롤 기능까지 제공하는 useInfiniteScroll 커스텀 훅을 통해 구현. (특정 요소가 화면에 보일 경우, 다음 데이터를 로드하는 방식)
 
 - **404 페이지 커스텀** : src/pages 디렉토리에 404라는 이름의 컴포넌트 파일을 생성하여 커스텀
+
   <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5a7bad2c-28e0-41d0-8982-df232ea9038a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220721%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220721T120042Z&X-Amz-Expires=86400&X-Amz-Signature=da7feab92a65e79d89f096e5e9b2ec882199a138902869f24bc3bada05576e16&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
 
   <br>
