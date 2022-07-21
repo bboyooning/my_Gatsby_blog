@@ -3,7 +3,7 @@ module.exports = {
     title: `보윤이의 개발 블로그`,
     description: `어제보다 오늘 더 성장하는 개발자 김보윤 입니다.`,
     author: `bboyooning`,
-    siteUrl: 'https://github.com/bboyooning/develop-blog.github.io/',
+    siteUrl: 'https://bboyooning.github.io/',
   },
   plugins: [
     {
@@ -11,13 +11,6 @@ module.exports = {
       options: {
         isTSX: true,
         allExtensions: true,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `contents`,
-        path: `${__dirname}/contents`,
       },
     },
     {
@@ -54,7 +47,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -96,7 +89,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://github.com/bboyooning/develop-blog.github.io/',
+        siteUrl: 'https://bboyooning.github.io/',
         stripQueryString: true,
       },
     },
