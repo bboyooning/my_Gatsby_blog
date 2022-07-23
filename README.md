@@ -24,7 +24,7 @@
 
 - **404 페이지 커스텀** : src/pages 디렉토리에 404라는 이름의 컴포넌트 파일을 생성하여 커스텀
 
-  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5a7bad2c-28e0-41d0-8982-df232ea9038a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220721%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220721T120042Z&X-Amz-Expires=86400&X-Amz-Signature=da7feab92a65e79d89f096e5e9b2ec882199a138902869f24bc3bada05576e16&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
+  <img src="my_blog/static/readme_img/404.png" style="width: 900px">
 
   <br>
 
@@ -33,7 +33,7 @@
 - 간단한 소개, 카테고리, 프로필 이미지로 구성
 - 필터 기능을 통해서 원하는 카테고리의 포스트에 들어 갈 수 있음
 
-  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2de7d064-6b41-4d7a-8f51-8d125d21e377/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220721%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220721T113457Z&X-Amz-Expires=86400&X-Amz-Signature=a7ed1ce83eea9e1a0e6f323aeef4516998e1ac5b6c4ab1fc0a72c80d2979838c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" style="width: 900px">
+  <img src="my_blog/static/readme_img/main.png" style="width: 900px">
 
   <br>
 
@@ -42,10 +42,10 @@
 - GraphQL을 통해 Markdown 정보 쿼리하기
 - 상단 배경 안에 게시글 제목, 카테고리, 날짜가 보이도록 구현
 
-  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8bed3a1b-c0e4-43de-ba5b-b3712d58fb49/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220721%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220721T113546Z&X-Amz-Expires=86400&X-Amz-Signature=6fa2335eb030ef87212d917312da8b484b0b892a31d2a9c34935246a71665af9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" style="width: 900px">
+  <img src="my_blog/static/readme_img/detail.png" style="width: 900px">
 
 - github Utterances 위젯을 통해 댓글을 달면 해당 repo issue에 댓글이 달릴 수 있게 함
 
-  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/07f7afac-07ce-4d71-b49e-a1d4b8eb5c2b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220721%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220721T113607Z&X-Amz-Expires=86400&X-Amz-Signature=8a399f65ef0e977974b1d82e05a51d250c4ed14f854284cd5e4312088b6a29d0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" style="width: 900px">
+  <img src="my_blog/static/readme_img/utterances_01.png" style="width: 900px">
 
-  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f49139d0-3f85-49fd-a7ab-734a63385290/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220721%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220721T120537Z&X-Amz-Expires=86400&X-Amz-Signature=bf3ca6316c5c57ded15d70ea0ad8b588a8a2ad2c0daaf75f10f65a3c5e1f35c5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" style="width: 900px">
+  <img src="my_blog/static/readme_img/utterances_02.png" style="width: 900px">
